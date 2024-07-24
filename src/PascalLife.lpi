@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="11"/>
+    <Version Value="12"/>
     <PathDelim Value="\"/>
     <General>
+      <Flags>
+        <CompatibilityMode Value="True"/>
+      </Flags>
       <SessionStorage Value="InProjectDir"/>
-      <MainUnit Value="0"/>
       <Title Value="PascalLife"/>
       <Scaled Value="True"/>
       <UseAppBundle Value="False"/>
@@ -14,7 +16,7 @@
         <DpiAware Value="True"/>
         <ExecutionLevel Value="requireAdministrator"/>
         <TextName Value="PascalLife"/>
-        <TextDesc Value="Conway's Life Cellular Automata"/>
+        <TextDesc Value="Conway&apos;s Life Cellular Automata"/>
       </XPManifest>
       <Icon Value="0"/>
     </General>
@@ -22,8 +24,8 @@
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
       <MajorVersionNr Value="1"/>
-      <BuildNr Value="10"/>
-      <StringTable CompanyName="Richard Rutt" FileDescription="Conway's Life Cellular Automata" LegalCopyright="Copyright 2024 Rick Rutt" ProductName="Pascal Life" ProductVersion="1.0.0+20240723"/>
+      <BuildNr Value="12"/>
+      <StringTable CompanyName="Richard Rutt" FileDescription="Conway&apos;s Life Cellular Automata" LegalCopyright="Copyright 2024 Rick Rutt" ProductName="Pascal Life" ProductVersion="1.0.0+20240723"/>
     </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
@@ -34,7 +36,6 @@
     </PublishOptions>
     <RunParams>
       <FormatVersion Value="2"/>
-      <Modes Count="0"/>
     </RunParams>
     <RequiredPackages Count="1">
       <Item1>
