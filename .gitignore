@@ -4,5 +4,6 @@ lib/
 *.exe
 *.res
 
+src/PascalLife
 !bin/PascalLife
 !bin/*.exe

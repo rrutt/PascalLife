@@ -25,7 +25,7 @@ object Form1: TForm1
     OnMouseUp = FieldImageMouseUp
   end
   object HeadLabel1: TLabel
-    Left = 160
+    Left = 56
     Height = 42
     Top = 0
     Width = 329
@@ -41,7 +41,7 @@ object Form1: TForm1
     Transparent = False
   end
   object HeadLabel3: TLabel
-    Left = 560
+    Left = 528
     Height = 15
     Top = 8
     Width = 133
@@ -51,9 +51,9 @@ object Form1: TForm1
     Transparent = False
   end
   object ButtonStart: TButton
-    Left = 488
+    Left = 504
     Height = 26
-    Top = 772
+    Top = 776
     Width = 80
     Anchors = [akLeft, akBottom]
     Caption = 'Start'
@@ -68,13 +68,13 @@ object Form1: TForm1
   end
   object DrawGroup: TGroupBox
     Left = 56
-    Height = 50
+    Height = 55
     Top = 757
-    Width = 368
+    Width = 416
     Anchors = [akLeft, akBottom]
     Caption = 'Draw'
-    ClientHeight = 30
-    ClientWidth = 364
+    ClientHeight = 35
+    ClientWidth = 412
     TabOrder = 1
     object FigureBox: TComboBox
       Left = 4
@@ -97,9 +97,9 @@ object Form1: TForm1
       Text = 'Cell'
     end
     object ClearButton: TButton
-      Left = 250
+      Left = 280
       Height = 25
-      Top = 0
+      Top = 2
       Width = 73
       Caption = 'Clear'
       Font.CharSet = ANSI_CHARSET
@@ -129,17 +129,17 @@ object Form1: TForm1
   end
   object GenBox: TGroupBox
     Left = 56
-    Height = 50
-    Top = 809
-    Width = 528
+    Height = 53
+    Top = 816
+    Width = 544
     Anchors = [akLeft, akBottom]
-    ClientHeight = 30
-    ClientWidth = 524
+    ClientHeight = 33
+    ClientWidth = 540
     TabOrder = 2
     object GenLabel: TLabel
       Left = 10
       Height = 19
-      Top = -3
+      Top = 2
       Width = 80
       Caption = 'Generation:'
       Font.CharSet = ANSI_CHARSET
@@ -154,7 +154,7 @@ object Form1: TForm1
     object SlowLabel: TLabel
       Left = 216
       Height = 15
-      Top = -3
+      Top = 0
       Width = 26
       Caption = 'Slow'
       ParentColor = False
@@ -162,15 +162,15 @@ object Form1: TForm1
     object FastLabel: TLabel
       Left = 400
       Height = 15
-      Top = -3
+      Top = 1
       Width = 22
       Caption = 'Fast'
       ParentColor = False
     end
     object FieldEdit: TEdit
-      Left = 104
+      Left = 112
       Height = 23
-      Top = -5
+      Top = 0
       Width = 41
       Enabled = False
       TabOrder = 0
@@ -178,7 +178,7 @@ object Form1: TForm1
     object ButtonNext: TButton
       Left = 160
       Height = 25
-      Top = -5
+      Top = 0
       Width = 41
       Caption = 'Next'
       OnClick = ButtonNextClick
@@ -186,17 +186,17 @@ object Form1: TForm1
     end
     object SpeedBar: TTrackBar
       Left = 248
-      Height = 33
-      Top = -5
+      Height = 28
+      Top = -2
       Width = 150
       OnChange = SpeedBarChange
       Position = 5
       TabOrder = 2
     end
     object ButtonPause: TButton
-      Left = 432
+      Left = 448
       Height = 25
-      Top = -3
+      Top = 2
       Width = 75
       Caption = 'Pause'
       Enabled = False
@@ -206,13 +206,13 @@ object Form1: TForm1
   end
   object SizeBox: TGroupBox
     Left = 56
-    Height = 60
+    Height = 58
     Top = 692
-    Width = 368
+    Width = 416
     Anchors = [akLeft, akBottom]
     Caption = 'Grid'
-    ClientHeight = 40
-    ClientWidth = 364
+    ClientHeight = 38
+    ClientWidth = 412
     TabOrder = 3
     object xLabel: TLabel
       Left = 64

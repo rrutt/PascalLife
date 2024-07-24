@@ -22,7 +22,7 @@
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
       <MajorVersionNr Value="1"/>
-      <BuildNr Value="10"/>
+      <BuildNr Value="12"/>
       <StringTable CompanyName="Richard Rutt" FileDescription="Conway's Life Cellular Automata" LegalCopyright="Copyright 2024 Rick Rutt" ProductName="Pascal Life" ProductVersion="1.0.0+20240723"/>
     </VersionInfo>
     <BuildModes Count="1">
