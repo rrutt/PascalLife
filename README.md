@@ -23,13 +23,13 @@ You can run the Pascal Life program on Microsoft Windows as follows:
 
 ### Ubuntu Linux
 
-You can run the Astronomical Simulation program on Ubuntu Linux (and presumably other Linux distributions) as follows:
+You can run the Pascal Life program on Ubuntu Linux (and presumably other Linux distributions) as follows:
 
 - Download the **PascalLife** binary executable file (with no file extension) from the **bin** sub-folder from this GitHub.com page.
 
 - Ensure the **PascalLife** file has the executable permission.  From a Files window, right-click the file, select Properties, and use the Permissions tab to enable the Execute permission.  To do this in a Terminal window, use the following command:
   
-    chmod +x AstroSim
+    chmod +x PascalLife
 
 - To uninstall the program, simply delete the **PascalLife** binary executable file.
 
